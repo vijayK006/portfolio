@@ -1,0 +1,110 @@
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 100px;
+background-color: #09162a;
+
+}
+
+.navbar_logo{
+height: 47px;
+width: 47px;
+margin: 5px;
+}
+
+.navbar_logo img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.navbar_logo h5{
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.nav_items{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav_items .nav_list{
+    margin: 0px 20px;
+    padding: 10px 6px;
+    color: white;
+    font-weight: 600;    
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.margin-0{
+    margin: 0px !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-nunito) ;
+}
+
+p, li{
+ font-family: var(--font-quiksand);   
+}
+
+.thick{
+font-weight: 300 !important;
+}
+
+.light{
+    font-weight: 500 !important;
+}
+
+.bold{
+   font-weight: 700 !important;
+}
+
+.banner{
+    position: relative;
+    background-color: #09162a;
+    height: 600px;
+    width: 100%;
+}
+
+.banner .content{
+
+}
+
+.banner .content h5{
+
+}
+
+.banner .content h1{
+
+}
+
+.banner .content h6{
+
+}
+
+.banner .content p{
+
+}
+
+.cicrle-bg{
+    background-image: url('../../public/banner-bg-circles.png');
+background-repeat: no-repeat;
+background-size: contain;
+height: 500px;
+width: 500px;
+background-position: right;
+right: 20px;
+bottom: 20px;
+}
