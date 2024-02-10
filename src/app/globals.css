@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--font-nunito) ;
 }
 
-p, li{
+p, li, a{
  font-family: var(--font-quiksand);   
 }
 
@@ -79,32 +79,58 @@ font-weight: 300 !important;
 }
 
 .banner .content{
-
+position: absolute;
+top: 50%;
+left: 50px;
+width: 50%;
+transform: translateY(-50%);
 }
 
 .banner .content h5{
-
+color: #F1B457;
+font-size: 25px;
 }
 
 .banner .content h1{
-
+color: white;
+font-size: 80px;
+font-weight: 700;
 }
 
 .banner .content h6{
-
+color: white;
+font-size: 30px;
 }
 
 .banner .content p{
-
+color: rgb(214, 214, 214);
+font-size: 15px;
 }
 
 .cicrle-bg{
+    position: absolute;
     background-image: url('../../public/banner-bg-circles.png');
 background-repeat: no-repeat;
 background-size: contain;
-height: 500px;
-width: 500px;
+height: 600px;
+width: 600px;
 background-position: right;
-right: 20px;
-bottom: 20px;
+right: 0px;
+top: -40px;
+
+
+}
+
+.btn-banner{
+background-color: #9A5CFF;
+color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+}
+
+.btn-outline-banner{
+border: 1px solid #9A5CFF;
+color: #9A5CFF;
+padding: 12px 30px;
+border-radius: 50px;
 }
