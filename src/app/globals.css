@@ -7,7 +7,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(30px);
     width: 100%;
@@ -36,7 +35,6 @@ object-fit: cover;
 }
 
 .nav_items{
-    display: flex;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
@@ -181,9 +179,6 @@ border-radius: 50px;
   }
 
   .section_header{
-display: flex;
-align-items: center;
-justify-content: start;
 position: relative;
   }
 
@@ -221,6 +216,11 @@ color: #9A5CFF;
     margin: 0px;
     background: #9A5CFF;
     color: white; 
+    border-radius: 5px;
+  }
+
+  .link_heightlight{
+    color: #9A5CFF !important;
   }
 
   .section_img-resp {

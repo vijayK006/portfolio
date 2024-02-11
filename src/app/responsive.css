@@ -1,2 +1,51 @@
-@media only screen and (min-width:600px){}
-@media only screen and (max-width:998px){}
+@media only screen and (max-width:600px){
+nav{
+    padding: 0px 10px;
+
+}
+
+.nav_items{
+    display: block;
+    position: absolute;
+    top: 100%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    left: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.37);
+    padding: 40px 0px;
+}
+}
+
+@media only screen and (min-width:768px){
+nav{
+    padding: 0px 70px;
+
+}
+
+.nav_items{
+display: flex;
+}
+}
+
+@media only screen and (min-width:998px){
+nav{
+    padding: 0px 100px;
+
+}
+
+.nav_items{
+display: flex;
+}
+}
+
+@media only screen and (min-width:1400px){
+nav{
+    padding: 0px 100px;
+
+}
+
+.nav_items{
+display: flex;
+}
+}

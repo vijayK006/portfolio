@@ -14,11 +14,11 @@ const Navbar = () => {
 
         <ul className='nav_items'>
 <Link href="/"><li className='nav_list'>Home</li></Link> 
-<Link href="/about-me"><li className='nav_list'>About me</li></Link> 
-<Link href="/"><li className='nav_list'>Service</li></Link> 
+<Link href="#aboutme"><li className='nav_list'>About me</li></Link> 
+<Link href="/"><li className='nav_list'>Projects</li></Link> 
 <Link href="/"><li className='nav_list'>Contact me</li></Link> 
 
-<Link href='/' className='btn-banner light'>Download my CV</Link>
+<Link href='/vijay-cv-2024.pdf' target='_black' download="vijay-cv-2024.pdf" className='btn-banner light'>Download my CV</Link>
         </ul>
      </nav> 
     </>
