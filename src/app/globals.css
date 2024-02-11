@@ -1,9 +1,18 @@
+
+
 nav{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0px 100px;
-background-color: #09162a;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    background: #09162a54;
+    z-index: 1111111111;
 
 }
 
@@ -55,8 +64,16 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--font-nunito) ;
 }
 
-p, li, a{
+p, li, a, span{
  font-family: var(--font-quiksand);   
+}
+
+.b-radius-5{
+    border-radius: 5px !important;
+}
+
+.b-radius-10{
+    border-radius: 10px !important;
 }
 
 .thick{
@@ -72,10 +89,11 @@ font-weight: 300 !important;
 }
 
 .banner{
-    position: relative;
-    background-color: #09162a;
-    height: 600px;
+    /* background-color: #09162a; */
+    min-height: 100vh;
     width: 100%;
+background-image: linear-gradient(180deg, #09162a,#09162a, #09162a, #09162a,
+#09162a, #09162ab9,white);
 }
 
 .banner .content{
@@ -88,7 +106,7 @@ transform: translateY(-50%);
 
 .banner .content h5{
 color: #F1B457;
-font-size: 25px;
+font-size: 35px;
 }
 
 .banner .content h1{
@@ -116,7 +134,7 @@ height: 600px;
 width: 600px;
 background-position: right;
 right: 0px;
-top: -40px;
+bottom: 0px;
 
 
 }
@@ -134,3 +152,90 @@ color: #9A5CFF;
 padding: 12px 30px;
 border-radius: 50px;
 }
+
+.sliderbar{
+    height: 45px;
+    width: 20px;
+    border: 2px solid #9A5CFF;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 50px;
+}
+
+.sliderbar .dot{
+    position: absolute;
+    bottom: 5px;
+    height: 5px;
+    width: 5px;
+    background: #9A5CFF;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    animation: movetb 3s linear 3s infinite ;;
+}
+
+@keyframes movetb {
+    0%   {top:100%; opacity: 1;}
+    50%  {top:50%; opacity: 0.5;}
+    100% {top:0%; opacity: 0;}
+  }
+
+  .section_header{
+display: flex;
+align-items: center;
+justify-content: start;
+position: relative;
+  }
+
+ .underline{
+    height: 8px;
+    width: 150px;
+    background-color: #9A5CFF;
+  }
+
+  .section_header h4{
+font-size: 40px;
+color: #9A5CFF;
+
+  }
+
+  .head_liner{
+    height: 7px;
+    width: 40px;
+    border-radius: 50px;
+    background: #9A5CFF;
+    transform: translate(-100px -50px) ;
+  }
+
+  .section_header span{
+    position: absolute;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px rgb(255 255 255 / 0%);
+    color: transparent;
+    z-index: -1;
+    font-size: 70px;
+    text-shadow: -20px 0px 2px #d7d7d7;
+  }
+
+  .skil_card{
+    margin: 0px;
+    background: #9A5CFF;
+    color: white; 
+  }
+
+  .section_img-resp {
+    height: 400px;
+    width: 100%;
+  }
+
+
+  .section_img-resp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .section-btn{
+background-color: #9A5CFF;
+color: white;
+  }

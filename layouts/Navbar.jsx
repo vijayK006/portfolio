@@ -18,6 +18,7 @@ const Navbar = () => {
 <Link href="/"><li className='nav_list'>Service</li></Link> 
 <Link href="/"><li className='nav_list'>Contact me</li></Link> 
 
+<Link href='/' className='btn-banner light'>Download my CV</Link>
         </ul>
      </nav> 
     </>
