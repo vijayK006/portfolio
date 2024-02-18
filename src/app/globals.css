@@ -184,7 +184,6 @@ span {
   transform: translateX(-50%);
   border-radius: 50px;
   animation: movetb 3s linear 3s infinite;
-  ;
 }
 
 @keyframes movetb {
@@ -234,7 +233,7 @@ span {
   -webkit-text-stroke: 3px rgb(255 255 255 / 0%);
   color: transparent;
   z-index: -1;
-  font-size: 70px;
+
   text-shadow: -20px 0px 2px #d7d7d7;
 }
 
