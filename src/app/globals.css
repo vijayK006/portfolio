@@ -109,25 +109,23 @@ span {
 .banner .content {
   position: absolute;
   top: 50%;
-  left: 50px;
-  width: 50%;
   transform: translateY(-50%);
+  z-index: 1111;
 }
 
 .banner .content h5 {
   color: #F1B457;
-  font-size: 35px;
+  
 }
 
 .banner .content h1 {
   color: white;
-  font-size: 80px;
+ 
   font-weight: 700;
 }
 
 .banner .content h6 {
   color: white;
-  font-size: 30px;
 }
 
 .banner .content p {
@@ -270,9 +268,7 @@ span {
 }
 
 
-.recent-project h2 {
-  font-size: 40px;
-}
+
 
 .project_slide {
   background-color: #222222e8;

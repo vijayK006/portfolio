@@ -4,11 +4,24 @@
 
     }
 
+
     .section_header span {
         display: none;
         font-size: 25px;
         left: 20px;
     }
+
+.banner .content h5 {
+    font-size: 25px;
+}
+
+.banner .content h1 {
+    font-size: 40px;
+}
+
+.banner .content h6 {
+    font-size: 20px;
+}
 
     .nav_items {
         display: block;
@@ -37,6 +50,15 @@
         font-size: 40px;
         color: white;
     }
+
+    .banner .content {
+        width: 95%;
+        left: 5px;
+    }
+
+    .recent-project h2 {
+        font-size: 60px;
+      }
 }
 
 @media only screen and (min-width:768px) {
@@ -57,6 +79,29 @@
     .menu {
         display: block;
     }
+
+    .banner .content {
+        width: 50%;
+        left: 50px;
+    }
+
+    .banner .content h5 {
+        font-size: 35px;
+    }
+
+    .banner .content h1 {
+        font-size: 80px;
+    }
+
+    .banner .content h6 {
+        font-size: 20px;
+    }
+
+
+    .recent-project h2 {
+        font-size: 40px;
+      }
+    
 }
 
 @media only screen and (min-width:998px) {
@@ -72,6 +117,27 @@
     .menu {
         display: none;
     }
+
+    .banner .content {
+        width: 50%;
+        left: 50px;
+    }
+
+    .banner .content h5 {
+        font-size: 35px;
+    }
+
+    .banner .content h1 {
+        font-size: 80px;
+    }
+
+    .banner .content h6 {
+        font-size: 30px;
+    }
+
+    .recent-project h2 {
+        font-size: 45px;
+      }
 }
 
 @media only screen and (min-width:1400px) {
@@ -87,4 +153,25 @@
     .menu {
         display: none;
     }
+
+    .banner .content {
+        width: 50%;
+        left: 50px;
+    }
+
+    .banner .content h5 {
+        font-size: 35px;
+    }
+
+    .banner .content h1 {
+        font-size: 80px;
+    }
+
+    .banner .content h6 {
+        font-size: 30px;
+    }
+
+    .recent-project h2 {
+        font-size: 50px;
+      }
 }

@@ -6,7 +6,7 @@ const Myexp = () => {
     <>
    
         <Container className='py-5'>
-          <div className='section_header d-flex justify-content-start align-items-center pt-5 pb-5'>
+          <div className='section_header d-flex justify-content-start align-items-center py-md-5 py-2'>
             <span>My Web Development Journey</span>
             <h4>My Work Experience</h4>
           </div>
