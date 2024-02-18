@@ -8,7 +8,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Aboutme = () => {
   return (
     <>
-       <Container className='my-5 pt-5' id="aboutme">
+
+    <Container className='pt-5' id="aboutme">
         <div className='section_header d-flex justify-content-start align-items-center pt-5'>
           <span>Get to know me!</span>
           <h4>About me</h4>
@@ -42,8 +43,9 @@ const Aboutme = () => {
         </Row>
 
       </Container>
+      
     </>
   )
 }
 
-export default Aboutme
+export default Aboutme;
