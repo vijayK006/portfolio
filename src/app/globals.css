@@ -451,3 +451,17 @@ transition: all 0.3s ease-in-out;
   height: 100px;
   width: 100px;
 }
+
+.footer-p{
+  padding: 15px 0px;
+  text-align: center;
+  background-color: #222;
+  margin: 0px;
+  color: white;
+}
+
+.footer-p span{
+  color: #9A5CFF;
+  letter-spacing: 1px;
+ font-weight: 700;
+}

@@ -28,7 +28,7 @@ const Aboutme = () => {
             </p>
 
             <div className='pt-5 mt-3'>
-              <Link href="/" className="section-btn px-4 py-3">Let&apos;s Connect
+              <Link href="#contact" className="section-btn px-4 py-3">Let&apos;s Connect
                 &nbsp;
                 <MdArrowRightAlt style={{ fontSize: '30px' }} />
               </Link>
