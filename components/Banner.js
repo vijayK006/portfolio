@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
+import { BsFillCloudDownloadFill } from "react-icons/bs";
+
+
 
 const Banner = () => {
   return (
@@ -16,8 +18,8 @@ const Banner = () => {
                 <p className='light'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
 
 <div className='d-flex align-items-center gap-4 pt-md-3 pt-5 mt-md-1 mt-5'>
-<Link href='/' className='btn-banner light'>Contact me</Link>
-<Link href='/' className='btn-outline-banner light'>Download CV</Link>
+<Link href='#contact' className='btn-banner light'>Contact me</Link>
+<Link href='/vijay-cv-2024.pdf' target='_black' download="vijay-cv-2024.pdf" className='btn-outline-banner bold'>Download CV &nbsp; <BsFillCloudDownloadFill /></Link>
 </div>
               </div>
            

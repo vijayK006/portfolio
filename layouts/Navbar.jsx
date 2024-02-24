@@ -3,6 +3,7 @@ import React from 'react'
 import logo from '../public/logo/logo.png';
 import Link from 'next/link';
 import { CgMenuRight } from "react-icons/cg";
+import { BsFillCloudDownloadFill } from "react-icons/bs";
 
 
 const Navbar = () => {
@@ -22,11 +23,12 @@ menu.classList.toggle('openmenu')
         <ul className='nav_items' id='menu'>
 <Link href="/"><li className='nav_list'>Home</li></Link> 
 <Link href="#aboutme"><li className='nav_list'>About me</li></Link> 
-<Link href="/"><li className='nav_list'>Projects</li></Link> 
-<Link href="/"><li className='nav_list'>Contact me</li></Link> 
+<Link href="#project"><li className='nav_list'>Projects</li></Link> 
+<Link href="#contact"><li className='nav_list'>Contact me</li></Link> 
+<Link href='/vijay-cv-2024.pdf' target='_black' download="vijay-cv-2024.pdf" className='btn-banner light mobile-none'>Download my CV  &nbsp; <BsFillCloudDownloadFill /></Link>
 
-<Link href='/vijay-cv-2024.pdf' target='_black' download="vijay-cv-2024.pdf" className='btn-banner light'>Download my CV</Link>
         </ul>
+
 
         <div className='menu' onClick={togglemenu}>
         <CgMenuRight  className='icon'/>

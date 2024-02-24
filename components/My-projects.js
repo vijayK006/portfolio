@@ -29,7 +29,7 @@ import { MdTravelExplore } from 'react-icons/md';
 const My_projects = () => {
     return (
         <>
-            <div className='bg_dark_project py-5 position-relative overflow-hidden'>
+            <div className='bg_dark_project py-5 position-relative overflow-hidden' id="project">  
                 <Container fluid>
                     <Row className='align-items-center'>
                         <Col md={4}>

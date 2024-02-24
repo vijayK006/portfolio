@@ -6,6 +6,7 @@ import Banner from '../../components/Banner';
 import Aboutme from '../../components/Aboutme';
 import Myexp from '../../components/Myexp';
 import My_projects from '../../components/My-projects';
+import Contact from '../../components/Contact';
 
 const page = () => {
 
@@ -15,8 +16,9 @@ const page = () => {
       <Navbar />
       <Banner />
      <Aboutme/>
-     <Myexp/>
 <My_projects/>
+     <Myexp/>
+<Contact/>
     </>
   )
 }

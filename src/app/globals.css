@@ -41,6 +41,7 @@ nav {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+
 }
 
 .nav_items .nav_list {
@@ -73,7 +74,9 @@ h6 {
 p,
 li,
 a,
-span {
+span ,
+input,
+textarea{
   font-family: var(--font-quiksand);
 }
 
@@ -161,6 +164,11 @@ span {
   color: #9A5CFF;
   padding: 12px 30px;
   border-radius: 50px;
+}
+
+.btn-outline-banner:hover{
+background-color: #9A5CFF;
+color: white;
 }
 
 .sliderbar {
@@ -376,4 +384,70 @@ span {
   width: 150px;
   /* border-radius:50px ; */
   clip-path: ellipse(50% 30% at 50% 50%);
+}
+
+.bg-common{
+  background-image: url('../../public/common-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+
+.contact-form-body h5{
+color: #9A5CFF;
+font-size: 50px;
+}
+
+input.contact_form{
+  width: 100%;
+  border: none;
+  padding: 15px 20px;
+  background-color: white;
+outline: none;
+border-radius: 10px;
+}
+
+textarea.contact_form{
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  background-color: white;
+outline: none;
+}
+
+.success-message{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.384);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(20px);
+  height: 100%;
+  width: 100%;
+  z-index: 11111111111;
+  transform: scale(0);
+  /* visibility: hidden; */
+transition: all 0.3s ease-in-out;
+}
+
+.openpopup{
+  transform: scale(1);
+  /* visibility: visible; */
+}
+
+.success-message .content-body{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.success-message .content-body img{
+  height: 100px;
+  width: 100px;
 }

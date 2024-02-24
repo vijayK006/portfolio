@@ -4,6 +4,9 @@
 
     }
 
+.mobile-none{
+display: none;
+}
 
     .section_header span {
         display: none;
@@ -27,11 +30,9 @@
         display: block;
         position: absolute;
         top: 100%;
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
         left: 0px;
         width: 100%;
-        background: rgba(0, 0, 0, 0.37);
+        background: #000000ed;
         padding: 40px 0px;
         transform-origin: top;
         transform: scaleY(0);
@@ -59,6 +60,10 @@
     .recent-project h2 {
         font-size: 60px;
       }
+
+      .success-message .content-body{
+        width: 95%;
+    }
 }
 
 @media only screen and (min-width:768px) {
@@ -102,6 +107,10 @@
         font-size: 40px;
       }
     
+      .success-message .content-body{
+        width: 65%;
+    }
+
 }
 
 @media only screen and (min-width:998px) {
@@ -138,6 +147,10 @@
     .recent-project h2 {
         font-size: 45px;
       }
+
+.success-message .content-body{
+    width: 50%;
+}
 }
 
 @media only screen and (min-width:1400px) {
@@ -174,4 +187,8 @@
     .recent-project h2 {
         font-size: 50px;
       }
-}
+      .success-message .content-body{
+        width: 50%;
+    }
+
+    }
