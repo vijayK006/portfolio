@@ -18,13 +18,18 @@ const nubito = Nunito({
 
 export const metadata = {
   title: "VIJAY KALE | Frontend Web Developer",
-  description: "",
+  description: "My Portfolio",
+  icons:{
+    icon:['/logo/logo.png?v=4'] ,
+    apple:['/logo/logo.png?v=4'],
+    shortcut:['/logo/logo.png']
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${nubito.variable} ${quicksand.variable}`}>{children}
+      <body className={`${nubito.variable} ${quicksand.variable}`}> {children}
       <BootstrapClient/>
       </body>
     </html>
