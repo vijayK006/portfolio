@@ -9,7 +9,7 @@ const Aboutme = () => {
   return (
     <>
 
-    <Container className='pt-5' id="aboutme">
+      <Container className='pt-5' id="aboutme">
         <div className='section_header d-flex justify-content-start align-items-center pt-5'>
           <span>Get to know me!</span>
           <h4>About me</h4>
@@ -17,14 +17,14 @@ const Aboutme = () => {
         <div className='underline mt-3' />
         <Row className=' align-items-center'>
           <Col md={6}>
-            <p className='light'>I&apos;m a Frontend Web Developer building the Front-end of
-              Websites and Web Applications that leads to the success of the overall product.
-              Check out some of my work in the Projects section.</p>
+            <p className='light'>I’m a detail-oriented Full Stack Developer with over 3+ years of experience building dynamic and scalable web applications.
+              I specialize in React.js for the frontend and Node.js with Express for backend development, delivering secure, maintainable, and performant solutions.</p>
 
             <p className='light'>
-              I&apos;m open to Job opportunities where I can contribute, learn and grow.
-              If you have a good opportunity that matches my skills and experience
-              then don&apos;t hesitate to contact me.
+              My journey started with front-end development — crafting intuitive interfaces — and evolved into full stack engineering, where I now design and develop complete web solutions from concept to deployment.
+              <br/>
+              <br/>
+              When I’m not coding, you’ll find me exploring new JavaScript frameworks, optimizing workflows, or mentoring aspiring developers.
             </p>
 
             <div className='pt-5 mt-3'>
@@ -43,7 +43,7 @@ const Aboutme = () => {
         </Row>
 
       </Container>
-      
+
     </>
   )
 }

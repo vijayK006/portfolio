@@ -9,28 +9,29 @@ const Banner = () => {
   return (
     <>
       <div className='banner'>
-     
-              <div className='content'>
-                <h5 className='mb-md-4 mb-2'>Hi there, I&apos;m</h5>
-                <h1 className='mb-md-3 mb-4'>Vijay S Kale</h1>
-                <h6>Full Time Frontend Web Developer</h6>
 
-                <p className='light'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+        <div className='content'>
+          <h5 className='mb-md-4 mb-2'>Hi there, I&apos;m</h5>
+          <h1 className='mb-md-3 mb-4'>Vijay S Kale</h1>
+          <h6>Full Time MERN Stack Developer</h6>
 
-<div className='d-flex align-items-center gap-4 pt-md-3 pt-5 mt-md-1 mt-5'>
-<Link href='#contact' className='btn-banner light'>Contact me</Link>
-<Link href='/vijay-cv-2024.pdf' target='_black' download="vijay-cv-2024.pdf" className='btn-outline-banner bold'>Download CV &nbsp; <BsFillCloudDownloadFill /></Link>
-</div>
-              </div>
-           
+          <p className='light'>A passionate Full Stack Developer specialized in React.js, Node.js, and Express.js. I love turning ideas into responsive, high-performance web applications with clean architecture and seamless user experiences.</p>
 
-        <div className='cicrle-bg'/>
+          <div className='d-flex align-items-center gap-4 pt-md-3 pt-5 mt-md-1 mt-5'>
+            <Link href='#contact' className='btn-banner light'>Contact me</Link>
+            <a href='/Vijay-CV-2025.pdf' target='_black' download="Vijay-CV-2025.pdf" className='btn-outline-banner bold'>Download CV &nbsp; <BsFillCloudDownloadFill /></a>
+          </div>
 
-<div className='d-flex justify-content-center'>
-  <div className='sliderbar'>
-    <div className='dot'/>
-  </div>
-</div>
+        </div>
+
+
+        <div className='cicrle-bg' />
+
+        <div className='d-flex justify-content-center'>
+          <div className='sliderbar'>
+            <div className='dot' />
+          </div>
+        </div>
       </div>
     </>
   )
