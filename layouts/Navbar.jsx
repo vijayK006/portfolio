@@ -25,7 +25,7 @@ menu.classList.toggle('openmenu')
 <Link href="/#aboutme"><li className='nav_list'>About me</li></Link> 
 <Link href="/#project"><li className='nav_list'>Projects</li></Link> 
 <Link href="/#contact"><li className='nav_list'>Contact me</li></Link> 
-<Link href='/Vijay-CV-11-2025.pdf' target='_black' download="Vijay-CV-11-2025.pdf" className='btn-banner light mobile-none'>Download my CV  &nbsp; <BsFillCloudDownloadFill /></Link>
+<Link href='/vijay-cv.pdf' target='_black' download="vijay-cv.pdf" className='btn-banner light mobile-none'>Download my CV  &nbsp; <BsFillCloudDownloadFill /></Link>
 
         </ul>
 

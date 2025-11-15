@@ -19,7 +19,7 @@ const Banner = () => {
 
           <div className='d-flex align-items-center gap-4 pt-md-3 pt-5 mt-md-1 mt-5'>
             <Link href='#contact' className='btn-banner light'>Contact me</Link>
-            <a href='/Vijay-CV-2025.pdf' target='_black' download="Vijay-CV-2025.pdf" className='btn-outline-banner bold'>Download CV &nbsp; <BsFillCloudDownloadFill /></a>
+            <a href='/vijay-cv.pdf' target='_black' download="vijay-cv.pdf" className='btn-outline-banner bold'>Download CV &nbsp; <BsFillCloudDownloadFill /></a>
           </div>
 
         </div>
